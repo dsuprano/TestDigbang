@@ -78,6 +78,9 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
+    bundleInStaging: true,
+    devDisabledInStaging: true,
+    bundleInUat: true,
     enableHermes: false,  // clean and rebuild if changing
 ]
 
@@ -134,6 +137,8 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+
+        multiDexEnabled true
     }
     splits {
         abi {
@@ -153,9 +158,18 @@ android {
     }
     buildTypes {
         debug {
+            buildConfigField('String', 'ENV_NAME', '"development"')
+            applicationIdSuffix ".dev"
             signingConfig signingConfigs.debug
         }
+        staging {
+            buildConfigField('String', 'ENV_NAME', '"staging"')
+            applicationIdSuffix ".staging"
+            signingConfig signingConfigs.debug
+            matchingFallbacks = ['release']
+        }
         release {
+            buildConfigField('String', 'ENV_NAME', '"production"')
             // Caution! In production, you need to generate your own keystore file.
             // see https://reactnative.dev/docs/signed-apk-android.
             signingConfig signingConfigs.debug
