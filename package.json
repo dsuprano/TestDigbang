@@ -7,7 +7,10 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "postinstall": "jetify && patch-package",
+    "lint": "eslint src/**/**.{js,jsx}",
+    "pretty": "prettier src/**/*.{js,jsx} --write",
+    "jetify": "npx jetify"
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.13.0",
