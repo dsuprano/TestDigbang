@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.testdigbang">
+  package="com.digbang.delvis">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

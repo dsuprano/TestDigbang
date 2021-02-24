@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.testdigbang"
+        applicationId "com.digbang.delvis"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

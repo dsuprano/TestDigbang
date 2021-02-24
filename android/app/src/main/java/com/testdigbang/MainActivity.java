@@ -1,4 +1,4 @@
-package com.testdigbang;
+package com.digbang.delvis;
 
 import com.facebook.react.ReactActivity;
 

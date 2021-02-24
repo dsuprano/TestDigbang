@@ -12,13 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		181FD64649D8134A4D1A4875 /* libPods-TestDigbang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D350B00D9476EAD4520C314 /* libPods-TestDigbang.a */; };
-		1F0C59EADA5E0E380DEB3C2C /* libPods-TestDigbang-TestDigbangTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D67E0C28C5B21F4F4BFA7921 /* libPods-TestDigbang-TestDigbangTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* TestDigbangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TestDigbangTests.m */; };
-		3B1228912BE265B26657A4ED /* libPods-TestDigbang-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2E619E59B2CC94E5BE97FF /* libPods-TestDigbang-tvOSTests.a */; };
-		517F8605A39895D1D61C652A /* libPods-TestDigbang-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F277C3CC611D339B22F88FB7 /* libPods-TestDigbang-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -51,22 +48,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TestDigbang/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TestDigbang/main.m; sourceTree = "<group>"; };
 		154A5510AFFFFB7DFC7E380B /* Pods-TestDigbang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang.debug.xcconfig"; path = "Target Support Files/Pods-TestDigbang/Pods-TestDigbang.debug.xcconfig"; sourceTree = "<group>"; };
-		1F2E619E59B2CC94E5BE97FF /* libPods-TestDigbang-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDigbang-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* TestDigbang-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TestDigbang-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* TestDigbang-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestDigbang-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33C6846972FB16E144A3FC30 /* Pods-TestDigbang-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-TestDigbang-tvOS/Pods-TestDigbang-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		59A35F67AB0F5A0BA21CD5BC /* Pods-TestDigbang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang.release.xcconfig"; path = "Target Support Files/Pods-TestDigbang/Pods-TestDigbang.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TestDigbang/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		856DA8D0676B06BBC73E1AD9 /* Pods-TestDigbang-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-TestDigbang-tvOSTests/Pods-TestDigbang-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8D350B00D9476EAD4520C314 /* libPods-TestDigbang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDigbang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DC0527579BEA9583E87C608 /* Pods-TestDigbang-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TestDigbang-tvOS/Pods-TestDigbang-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		BB29B3FEDE677C5AA4A9A864 /* Pods-TestDigbang-TestDigbangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang-TestDigbangTests.release.xcconfig"; path = "Target Support Files/Pods-TestDigbang-TestDigbangTests/Pods-TestDigbang-TestDigbangTests.release.xcconfig"; sourceTree = "<group>"; };
-		D2F672951B98043E3C61B83F /* Pods-TestDigbang-TestDigbangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang-TestDigbangTests.debug.xcconfig"; path = "Target Support Files/Pods-TestDigbang-TestDigbangTests/Pods-TestDigbang-TestDigbangTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D67E0C28C5B21F4F4BFA7921 /* libPods-TestDigbang-TestDigbangTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDigbang-TestDigbangTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F277C3CC611D339B22F88FB7 /* libPods-TestDigbang-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDigbang-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F768D56F7FC4FA7C1FD9A506 /* Pods-TestDigbang-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TestDigbang-tvOSTests/Pods-TestDigbang-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F0C59EADA5E0E380DEB3C2C /* libPods-TestDigbang-TestDigbangTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517F8605A39895D1D61C652A /* libPods-TestDigbang-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B1228912BE265B26657A4ED /* libPods-TestDigbang-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +127,6 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				8D350B00D9476EAD4520C314 /* libPods-TestDigbang.a */,
-				D67E0C28C5B21F4F4BFA7921 /* libPods-TestDigbang-TestDigbangTests.a */,
-				F277C3CC611D339B22F88FB7 /* libPods-TestDigbang-tvOS.a */,
-				1F2E619E59B2CC94E5BE97FF /* libPods-TestDigbang-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,14 +136,7 @@
 			children = (
 				154A5510AFFFFB7DFC7E380B /* Pods-TestDigbang.debug.xcconfig */,
 				59A35F67AB0F5A0BA21CD5BC /* Pods-TestDigbang.release.xcconfig */,
-				D2F672951B98043E3C61B83F /* Pods-TestDigbang-TestDigbangTests.debug.xcconfig */,
-				BB29B3FEDE677C5AA4A9A864 /* Pods-TestDigbang-TestDigbangTests.release.xcconfig */,
-				33C6846972FB16E144A3FC30 /* Pods-TestDigbang-tvOS.debug.xcconfig */,
-				9DC0527579BEA9583E87C608 /* Pods-TestDigbang-tvOS.release.xcconfig */,
-				F768D56F7FC4FA7C1FD9A506 /* Pods-TestDigbang-tvOSTests.debug.xcconfig */,
-				856DA8D0676B06BBC73E1AD9 /* Pods-TestDigbang-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "TestDigbangTests" */;
 			buildPhases = (
-				A88571DDB06DE153B8E5A564 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				F68943A66E639753214E22FB /* [CP] Embed Pods Frameworks */,
-				C5CF89550649E16A7EF96D64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,7 +204,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				68C2F95C410E7068258A7E71 /* [CP] Embed Pods Frameworks */,
 				A94E9FE686C38F8E63FB3544 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -248,7 +219,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TestDigbang-tvOS" */;
 			buildPhases = (
-				73B272B0D7E6EEAAE2B30018 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -268,7 +238,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "TestDigbang-tvOSTests" */;
 			buildPhases = (
-				926F0C843EE5882ABE1B14F5 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -415,90 +384,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		68C2F95C410E7068258A7E71 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestDigbang/Pods-TestDigbang-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestDigbang/Pods-TestDigbang-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		73B272B0D7E6EEAAE2B30018 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestDigbang-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		926F0C843EE5882ABE1B14F5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestDigbang-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A88571DDB06DE153B8E5A564 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestDigbang-TestDigbangTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A94E9FE686C38F8E63FB3544 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,42 +400,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestDigbang/Pods-TestDigbang-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C5CF89550649E16A7EF96D64 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestDigbang-TestDigbangTests/Pods-TestDigbang-TestDigbangTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestDigbang-TestDigbangTests/Pods-TestDigbang-TestDigbangTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F68943A66E639753214E22FB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestDigbang-TestDigbangTests/Pods-TestDigbang-TestDigbangTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestDigbang-TestDigbangTests/Pods-TestDigbang-TestDigbangTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -646,7 +495,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2F672951B98043E3C61B83F /* Pods-TestDigbang-TestDigbangTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -669,7 +517,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB29B3FEDE677C5AA4A9A864 /* Pods-TestDigbang-TestDigbangTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -702,7 +549,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.digbang.delvis;
 				PRODUCT_NAME = TestDigbang;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -724,7 +571,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.digbang.delvis;
 				PRODUCT_NAME = TestDigbang;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -733,7 +580,6 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33C6846972FB16E144A3FC30 /* Pods-TestDigbang-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -761,7 +607,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DC0527579BEA9583E87C608 /* Pods-TestDigbang-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -789,7 +634,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F768D56F7FC4FA7C1FD9A506 /* Pods-TestDigbang-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -816,7 +660,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856DA8D0676B06BBC73E1AD9 /* Pods-TestDigbang-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
