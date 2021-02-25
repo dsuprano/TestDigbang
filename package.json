@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "test": "jest",
     "lint": "eslint src/**/**.{js,jsx}",
     "pretty": "prettier src/**/*.{js,jsx} --write",
     "postinstall": "patch-package"
@@ -40,6 +41,11 @@
     "metro-config": "^0.65.1",
     "metro-react-native-babel-preset": "^0.59.0",
     "prettier": "^2.2.1",
-    "react-test-renderer": "16.13.1"
+    "react-test-renderer": "16.13.1",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }

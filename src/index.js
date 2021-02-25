@@ -18,16 +18,14 @@ const styles = {
 };
 
 const App = () => (
-  <>
-    <CodePushProvider>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.container}>
-        <View>
-          <Text style={styles.text}>Digbang - Delvis</Text>
-        </View>
-      </SafeAreaView>
-    </CodePushProvider>
-  </>
+  <CodePushProvider>
+    <StatusBar barStyle="dark-content" />
+    <SafeAreaView style={styles.container}>
+      <View>
+        <Text style={styles.text}>Digbang - Delvis</Text>
+      </View>
+    </SafeAreaView>
+  </CodePushProvider>
 );
 
 export default CodePushProvider.init(App);
