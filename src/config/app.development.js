@@ -1,7 +1,7 @@
 const config = {
   appName: 'TestDigbang DEV',
   apiUrl: 'https://localhost/api',
-  sentryDSN: '',
+  sentryDSN: 'https://c04c03ec8ea543bda518977060d394fe@o530968.ingest.sentry.io/5651059',
   codePushKeyIos: '',
   codePushKeyAndroid: '',
   googleWebClientId: '',

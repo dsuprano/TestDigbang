@@ -70,5 +70,7 @@
 		<string>Roboto-Thin.ttf</string>
 		<string>Roboto-ThinItalic.ttf</string>
 	</array>
+	<key>CodePushDeploymentKey</key>
+	<string>DeploymentKey</string>
 </dict>
 </plist>
