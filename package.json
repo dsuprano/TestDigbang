@@ -6,7 +6,6 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
     "lint": "eslint src/**/**.{js,jsx}",
     "pretty": "prettier src/**/*.{js,jsx} --write",
     "postinstall": "patch-package"
