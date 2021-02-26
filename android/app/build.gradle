@@ -157,12 +157,6 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
-        release {
-            storeFile file('release.keystore')
-            storePassword 'release'
-            keyAlias 'digbang'
-            keyPassword 'digbang'
-        }
     }
     buildTypes {
         debug {
@@ -178,7 +172,7 @@ android {
         }
         release {
             buildConfigField('String', 'ENV_NAME', '"production"')
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
