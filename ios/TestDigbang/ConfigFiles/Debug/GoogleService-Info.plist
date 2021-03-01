@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>689363447223-7ofqlsqr72q0puhefjpouenuif56uirt.apps.googleusercontent.com</string>
+	<string>689363447223-9m20d42bggs4inkku5mgfn0963l11eah.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.689363447223-7ofqlsqr72q0puhefjpouenuif56uirt</string>
+	<string>com.googleusercontent.apps.689363447223-9m20d42bggs4inkku5mgfn0963l11eah</string>
 	<key>API_KEY</key>
 	<string>AIzaSyAx3ZI7XJZquegITW1DJdnsdZrjkcIpaPY</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.digbang.delvis.dev</string>
+	<string>com.digbang.delvis.dev</string>
 	<key>PROJECT_ID</key>
 	<string>delvis-ff892</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:689363447223:ios:e8bf75ab821d20ef164c32</string>
+	<string>1:689363447223:ios:4e7ca2a90e0a68a7164c32</string>
 </dict>
 </plist>

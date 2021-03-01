@@ -69,12 +69,12 @@
 		4B152A97D4F54A2E977A5FA2 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		67479C3433E0493B912546D4 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		7C1639E85D27297D7988B16C /* Pods-TestDigbang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDigbang.debug.xcconfig"; path = "Target Support Files/Pods-TestDigbang/Pods-TestDigbang.debug.xcconfig"; sourceTree = "<group>"; };
-		814D102A25E6DBC3007A406E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		814D102B25E6DBE8007A406E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		814D102C25E6DBF7007A406E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		814D126825E7E159007A406E /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		814D126925E7E18A007A406E /* Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Staging.xcconfig; sourceTree = "<group>"; };
 		814D126A25E7E198007A406E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		814D13A725ED506A007A406E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		814D13A825ED50A8007A406E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		814D13A925ED50E5007A406E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TestDigbang/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A83722E802F4227BD1129E8 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
 		ADDD7953FB294E41A6608F6D /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
@@ -206,7 +206,7 @@
 		814D126525E7E070007A406E /* Release */ = {
 			isa = PBXGroup;
 			children = (
-				814D102B25E6DBE8007A406E /* GoogleService-Info.plist */,
+				814D13A725ED506A007A406E /* GoogleService-Info.plist */,
 				814D126A25E7E198007A406E /* Release.xcconfig */,
 			);
 			path = Release;
@@ -216,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				814D126925E7E18A007A406E /* Staging.xcconfig */,
-				814D102C25E6DBF7007A406E /* GoogleService-Info.plist */,
+				814D13A825ED50A8007A406E /* GoogleService-Info.plist */,
 			);
 			path = Staging;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				814D126825E7E159007A406E /* Debug.xcconfig */,
-				814D102A25E6DBC3007A406E /* GoogleService-Info.plist */,
+				814D13A925ED50E5007A406E /* GoogleService-Info.plist */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -690,7 +690,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.digbang.delvis.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digbang.delvis.dev;
 				PRODUCT_NAME = TestDigbang;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -715,7 +715,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.digbang.delvis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digbang.delvis;
 				PRODUCT_NAME = TestDigbang;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -923,7 +923,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.digbang.delvis.staging;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digbang.delvis.staging;
 				PRODUCT_NAME = TestDigbang;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
